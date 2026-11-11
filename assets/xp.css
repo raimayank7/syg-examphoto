@@ -1,0 +1,24 @@
+/* Exam Photo: own styles on top of the shared frame */
+.xp-meta{font-size:.88rem;color:var(--soft)}
+.xp-cta{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}
+.xp-lead{font-size:1.08rem;color:var(--soft)}
+.xp-rule{margin:12px 0 0;font-size:.96rem}
+.xp-custom{margin-top:12px}
+.xp-file{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}
+.xp-file:focus-visible+span{outline:3px solid var(--focus)}
+#xp-pick{margin:14px 0 0;display:flex;align-items:center;gap:10px;flex-wrap:wrap;position:relative}
+.xp-stage{display:flex;justify-content:center;background:repeating-conic-gradient(var(--surface2) 0 25%,var(--surface) 0 50%) 0 0/20px 20px;border:1px solid var(--line);border-radius:10px;padding:10px;margin:8px 0}
+#xp-cv{max-width:100%;touch-action:none;cursor:grab;outline:2px solid var(--accent);background:#fff}
+#xp-cv:active{cursor:grabbing}
+.xp-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:10px 0}
+.xp-row label{margin:0}
+.xp-row input[type=range]{flex:1;min-width:140px;height:40px;accent-color:var(--accent)}
+.xp-check{display:inline-flex!important;align-items:center;gap:8px;min-height:40px;font-weight:600;cursor:pointer}
+.xp-check input{width:20px;height:20px;accent-color:var(--accent)}
+.xp-out{max-width:100%;height:auto;border:1px solid var(--line);background:#fff}
+.tag.xp-bad{color:var(--bad)}
+.xp-guides a small{white-space:normal}
+blockquote{margin:14px 0;padding:10px 14px;border-left:4px solid var(--line);background:var(--surface);border-radius:8px;font-style:italic}
+.prose .tbl td small,.tbl td small{font-size:.84rem}
+.finder input[inputmode]{font-family:var(--mono)}
+.grid a{flex-wrap:wrap}.grid a small{white-space:normal}
